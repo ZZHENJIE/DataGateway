@@ -1,0 +1,13 @@
+{
+  "name": "DataGateway",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.13.13",
+    "linkedom": "^0.18.13"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}
