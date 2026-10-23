@@ -12,7 +12,7 @@ calendar.get('/translate', async (c) => {
     return c.json({ error: 'start and end required' }, 400)
   }
 
-  return c.json(await translate(from,to,keyword));
+  return c.text(await translate(from,to,keyword));
 })
 
 export default calendar
